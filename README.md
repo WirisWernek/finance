@@ -1,27 +1,31 @@
-# Finance
+# Portifólio ![version](https://img.shields.io/badge/version-0.2.0-blue)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+## Sobre
 
-## Development server
+O projeto é meu gerenciador de finanças, onde se pode registrar as entradas e saídas mensais e a aplicação vai calcular o saldo automaticamente.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Atualmente o projeto se encontra publicado na [Vercel](https://finance-wiriswernek.vercel.app), e usa como base o Angular com Typescript e Bootstrap 5.
 
-## Code scaffolding
+Segue abaixo uma prévia da aplicação.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2 align="center">Preview</h2>
+<div align="center">
+	<img width="800" src="./docs/images/preview.png">
+</div>
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Como executar esta aplicação?
 
-## Running unit tests
+Para rodar a aplicação voce deve:
+- Primeiro clonar este repositório
+- Navegar para a pasta `finance`
+- Executar o comando `npm i` para instalar as dependências do projeto
+- Executar o comando `ng s` ou `ng serve` para rodar a aplicação
+- Abrir em seu navegador de preferência a URL `http://localhost:4200/` para acessar a aplicação
+- Se desejar pode executar diretamente `ng s -o` ou `ng serve --open` para executar a aplicação e abrir automaticamente o navegador já na pagina da aplicação
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Versões dos recursos da aplicação
+- angular/cli <img style="vertical-align: middle;" src="https://img.shields.io/badge/version-15.1.6-blue"/>
+- typescript <img style="vertical-align: middle;" src="https://img.shields.io/badge/version-4.9.5-blue"/>
+- bootstrap <img style="vertical-align: middle;" src="https://img.shields.io/badge/version-5.3.1-blue"/>
