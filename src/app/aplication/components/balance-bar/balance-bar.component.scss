@@ -1,14 +1,37 @@
-.justify-content-evenly{
-	max-width: 80%;
-	max-height: 50%;
-	margin: 1rem auto 1rem auto;
+.justify-content-evenly {
+  max-width: 90%;
+  max-height: 50%;
+  margin: 2rem auto 1rem auto;
 }
 
-.drac-card{
-	min-width: 33%;
-	height: 8rem;
+.drac-card {
+  width: 90vw;
+  height: 7rem;
+  font-size: 3rem;
 }
 
-span{
-	margin-left: 1rem;
+.drac-card-icon {
+  height: 6rem;
+  display: flex;
+}
+
+.drac-card-content {
+  width: 70%;
+  height: 6rem;
+}
+
+.drac-text-content{
+	font-size: 1rem;
+}
+
+p{
+	margin: 0;
+}
+
+@media (min-width: 500px) {
+  .drac-card {
+    width: 28vw;
+    height: 7rem;
+    font-size: 40px;
+  }
 }

@@ -1,7 +1,6 @@
-$card-height: 20rem;
-$card-width: 32rem;
-
 .card {
+  $card-height: 60vw;
+  $card-width: 96vw;
   min-height: $card-height;
   min-width: $card-width;
   max-height: $card-height;
@@ -16,12 +15,10 @@ $card-width: 32rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.linha:first-child {
-  margin-top: 1rem;
-}
 
 .linha:last-child {
-  margin-top: 28%;
+  position: absolute;
+  bottom: 0.5rem;
 }
 
 .mastercard-text {
@@ -65,4 +62,20 @@ $card-width: 32rem;
   -webkit-box-shadow: 19px 13px 27px 1px rgba(105, 117, 104, 1) !important;
   -moz-box-shadow: 19px 13px 27px 1px rgba(105, 117, 104, 1) !important;
   box-shadow: 19px 13px 27px 1px rgba(105, 117, 104, 1) !important;
+}
+
+@media (min-width: 500px) {
+  $card-height: 20rem;
+  $card-width: 32rem;
+
+  .card {
+	min-height: $card-height;
+	min-width: $card-width;
+	max-height: $card-height;
+	max-width: $card-width;
+	background-color: #282a36;
+	border-radius: 30px;
+	color: #f8f8f2;
+	border: 1.5px solid #000000;
+  }
 }
