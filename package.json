@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^16.2.10",
     "@angular/platform-browser-dynamic": "^16.2.10",
     "@angular/router": "^16.2.10",
+    "@angular/service-worker": "^16.2.10",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.11.1",
     "dracula-ui": "^1.0.6",
