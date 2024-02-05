@@ -1,0 +1,28 @@
+.container-fluid{
+	width: auto;
+}
+
+i{
+	color: aliceblue;
+	font-size: 30px;
+}
+
+li:hover, li.active{
+	i{
+		color: aqua;
+	}
+}
+
+.navbar{
+	width: 50%;
+	max-width: 30rem;
+	border-radius: 50px;
+	bottom: 1rem;
+}
+
+@media (max-width: 700px) {
+	.navbar{
+		width: 95%;
+	}
+	
+}
