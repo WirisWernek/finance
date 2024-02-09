@@ -1,0 +1,29 @@
+section {
+  height: 10rem;
+}
+
+section:nth-child(2) {
+  width: 40%;
+}
+
+.saldo {
+  width: 60%;
+  background-color: aquamarine;
+}
+.pontos {
+  background-color: chartreuse;
+}
+.cards {
+  background-color: cadetblue;
+}
+
+.pontos,
+.cards {
+  height: 50%;
+}
+
+.saldo,
+.pontos,
+.cards {
+  border-radius: 1rem;
+}
